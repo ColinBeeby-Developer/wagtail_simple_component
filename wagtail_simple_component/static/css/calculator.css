@@ -1,0 +1,39 @@
+button {
+    width:100%;
+    border:0px;
+}
+
+input {
+    border: 0px;
+}
+
+.calc-container-light {
+    color: black;
+    background-color: white;
+    border: 0px;
+}
+
+.calc-container-dark {
+    color: white;
+    background-color: black;
+}
+
+.calc-container-light button{
+    color:white;
+    background-color:black;
+}
+
+.calc-container-light input{
+    color:white;
+    background-color:black;
+}
+
+.calc-container-dark button {
+    color:black;
+    background-color:white;
+}
+
+.calc-container-dark input {
+    color:black;
+    background-color:white;
+}

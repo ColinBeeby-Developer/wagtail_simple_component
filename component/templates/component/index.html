@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% load static wagtailcore_tags wagtailuserbar %}
+
+{% block content %}
+    <p>This is the template</p>
+    <div style="width:200px">
+        <custom-calc theme="dark"></custom-calc>
+    </div>
+{% endblock content %}
+
+{% block extra_js %}
+<script type="text/javascript" src="{% static 'js/calculator.js' %}"></script>
+{% endblock extra_js %}
